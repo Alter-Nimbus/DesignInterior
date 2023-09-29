@@ -6,11 +6,11 @@ import { Sidebar } from './sidebar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: ' Design Interior cu Inteligența Artificială',
-  description: 'Încarăcați o imagine a camerei dvs. și alegeți ce opțiuni doriți.',
+  title: 'Interior Designer AI',
+  description: 'Upload a sample room photo and get a design back in seconds.',
   robots: 'index, follow',
   openGraph: {
-    title: ' Design Interior cu Inteligența Artificială',
+    title: 'Interior Designer AI',
     description: 'Upload a sample room photo and get a design back in seconds.',
     url: 'https://interior-designer-ai.vercel.app/',
     locale: 'en_US',

@@ -69,8 +69,8 @@ function ActionPanel({ isLoading, submitImage }: ActionPanelProps) {
       <div className="px-4 py-5 sm:p-6">
         <div className="sm:flex sm:items-start sm:justify-between">
           <div>
-            <h3 className="text-base font-semibold leading-6 text-gray-300 lg:text-xl">
-              Încărcați o imagine sau o fotografie
+          <h3 className="text-base font-semibold leading-6 text-gray-300 lg:text-xl">
+            Încărcați o imagine sau o fotografie
             </h3>
             <div className="mt-5 max-w-xl text-m text-gray-500">
               <p>
@@ -118,7 +118,7 @@ function ImageOutput(props: ImageOutputProps) {
               visible={props.loading}
             />
             <span className="block text-sm font-semibold text-gray-300">
-              Procesăm imaginea
+            Procesăm imaginea
             </span>
           </span>
         ) : null}
@@ -320,8 +320,8 @@ export default function HomePage() {
       <section className="mt-10 grid flex-1 gap-6 px-4 lg:px-6 xl:grid-cols-2 xl:gap-8 xl:px-8">
         {!file ? (
           <ImageDropzone
-            title={`Atașați imaginea prin drag & drop sau utilizați acest meniu`}
-            onImageDrop={onImageDrop}
+          title={`Atașați imaginea prin drag & drop sau utilizați acest meniu`}
+          onImageDrop={onImageDrop}
             icon={PhotoIcon}
           />
         ) : (

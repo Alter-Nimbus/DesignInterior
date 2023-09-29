@@ -10,7 +10,7 @@ export function DesktopSidebar() {
       {/* Sidebar component, swap this element with another sidebar if you like */}
       <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-gray-900 px-6">
         <div className="flex h-16 shrink-0 items-center">
-          <h1 className="bg-gradient-to-r from-blue-500 via-red-500 to-indigo-400 bg-clip-text text-xl font-semibold text-transparent">
+        <h1 className="bg-gradient-to-r from-blue-500 via-red-500 to-indigo-400 bg-clip-text text-xl font-semibold text-transparent">
           Design Interior cu Inteligența Artificială
           </h1>
         </div>
